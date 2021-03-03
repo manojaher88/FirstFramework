@@ -14,4 +14,5 @@ Pod::Spec.new do |s|
   }
   s.source_files        = "FirstFramework/**/*.{h,swift}"
   s.public_header_files = "FirstFramework/**/*.h"
+  s.dependency 'SwiftDate'
 end

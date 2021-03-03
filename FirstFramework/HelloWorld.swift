@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftDate
 
 public class HelloWorld {
     
@@ -13,6 +14,7 @@ public class HelloWorld {
     
     public func printTheHelloWorld() {
         print("Helllo World")
+        print(Date().dateByAdding(5, .day))
     }
     
     public func getStringHelloWorld() -> String {
