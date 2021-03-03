@@ -9,6 +9,8 @@ import Foundation
 
 public class HelloWorld {
     
+    public init() {}
+    
     public func printTheHelloWorld() {
         print("Helllo World")
     }
